@@ -18,8 +18,6 @@ Warning: running the simulation on the default settings takes a long time (about
 
 ---
 
-![A horizontal velocity profile animation. Real-time from t = 0 to t = 10. The perturbation flattens out by t = 8, and we can see convergence to an approximately piece-wise linear horizontal velocity profile.](images/u_x.gif)
-
-![Color map key](https://www.kennethmoreland.com/color-advice/smooth-cool-warm/smooth-cool-warm.svg)
+![A horizontal velocity profile animation. Real-time from t = 0 to t = 10. The perturbation flattens out by t = 8, and we can see convergence to an approximately piece-wise linear horizontal velocity profile.](images/u_x.gif) ![Color map key](https://www.kennethmoreland.com/color-advice/smooth-cool-warm/smooth-cool-warm.svg)
 
 This is a real-time animation of the horizontal velocity profile (the scalar field `u.x`). This is from `t = 0` to `t = 10`.
