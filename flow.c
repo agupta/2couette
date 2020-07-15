@@ -5,7 +5,7 @@
 
 #define MAX_LEVEL 7
 #define TIME_STEP 1./25 // Timestep for movie and log file.
-#define MAX_TIME 3.0 // Time to stop at.
+#define MAX_TIME 10.0 // Time to stop at.
 #define beta 0.93 // Location of the fluid interface
 
 // Fluid 1 is water at 25°C
@@ -66,7 +66,7 @@ event init(t = 0) {
   }
   
   // No-slip boundary conditions.
-  u.t[top] = dirichlet(0.);
+  u.t[top] = dirichlet(1.);
   u.t[bottom] = dirichlet(0.);
 
 }
