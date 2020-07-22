@@ -45,8 +45,8 @@ int main () {
 event acceleration (i++)
 {
   face vector av = a;
-  foreach_face(x)
-    av.x[] -= 1./sq(Fr);
+  foreach_face(y)
+    av.y[] -= 1./sq(Fr);
 }
 
 event init(t = 0) {
