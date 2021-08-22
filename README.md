@@ -1,6 +1,6 @@
 # 2couette
 
-A two-fluid couette flow with bells and whistles, written in Basilisk C
+A two-fluid Couette flow with bells and whistles, written in Basilisk C
 
 ---
 
